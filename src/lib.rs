@@ -16,7 +16,7 @@ mod tests {
 
     #[pg_test]
     fn test_hamming_distance_extension() {
-        assert_eq!(2, hamming_distance(&32_i32.to_ne_bytes(), &45_i32.to_ne_bytes()));
+        assert_eq!(3, hamming_distance(&32_i32.to_ne_bytes(), &45_i32.to_ne_bytes()));
     }
 
 }
