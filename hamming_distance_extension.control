@@ -1,4 +1,4 @@
-comment = 'hamming_distance_extension:  Created by pgx'
+comment = 'Calculate hamming distance between two bytea'
 default_version = '@CARGO_VERSION@'
 module_pathname = '$libdir/hamming_distance_extension'
 relocatable = false
